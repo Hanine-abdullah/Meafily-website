@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meafily</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav
+        class="navbar navbar-expand-lg navbar-light bg-light px-4 fixed-top d-flex justify-content-evenly align-items-center">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bold" href="#">Meafily<span class="text-danger">.</span></a>
+            <button class="btn  d-lg-none ms-auto" id="darkModeToggleMobile">
+                <i class="fa-solid fa-moon fa-xl" style="color: #000000;"></i>
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active special" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chefs">Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <span class="nav-item# d-none d-lg-block">
+                        <button class="btn ms-auto px-5" id="darkModeToggleDesktop">
+                            <i class="fa-solid fa-moon fa-xl" style="color: #000000;"></i>
+                        </button>
+                    </span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header section-->
+    <header id="home" class="header">
+        <div class="container-fluid d-flex align-items-center justify-content-center bg-body-secondary vh-100 py-4 ">
+            <div class="row p-2">
+                <div class="col-md-12 col-lg-6 d-flex flex-column justify-content-center p-5">
+                    <div class="header-text text-start">
+                        <h2>Enjoy Your Healthy</h2>
+                        <h2 class="pb-3">Delicious Food</h2>
+                        <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur</p>
+                        <p>eveniet. Eum quas beatae cumque eum quaerat.</p>
+                        <div class="py-3">
+                            <a class="btn1 btn btn-danger text-light p-2" href="#">Book a Table</a>
+                            <span><i class="fa-solid fa-play fa-lg"></i></span>
+                            <a class="btn2" href="#">Watch a Video</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container col-md-12 col-lg-6  p-4">
+                    <img src="img/hero-img.png" alt="meal" class="w-75">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Chefs section -->
+    <section class="chefs p-3">
+        <div class="container py-3" id="chefs">
+            <div class="row py-3">
+                <h2 class="pt-5">Chefs</h2>
+                <p>Our <span>Professional</span> Chefs</p>
+                <div class="card my-3 col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="image-container w-100">
+                        <img src="img/chefs/chefs-1.jpg" alt="Walter White" class="w-100">
+                        <div class="overlay">
+                            <ul class="list-unstyled p-5 text-end">
+                                <li><i class="fa-brands fa-twitter fa-xl p-4 border-2 border-secondary "
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-facebook fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-linkedin fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-instagram fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center p-4">
+                        <h3>Walter White</h3>
+                        <span>Master Chef</span>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                            exercitationem iure minima enim corporis et voluptate.</p>
+                    </div>
+                </div>
+                <div class="card my-3 col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="image-container w-100">
+                        <img src="img/chefs/chefs-2.jpg" alt="Sarah Johnson" class="w-100">
+                        <div class="overlay">
+                            <ul class="list-unstyled p-5 text-end">
+                                <li><i class="fa-brands fa-twitter fa-xl p-4 border-2 border-secondary "
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-facebook fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-linkedin fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-instagram fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center p-4">
+                        <h3>Sarah Johnson</h3>
+                        <span>Patissier</span>
+                        <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit
+                            corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                    </div>
+                </div>
+                <div class="card my-3 col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="image-container w-100">
+                        <img src="img/chefs/chefs-3.jpg" alt="William Anderson" class="w-100">
+                        <div class="overlay">
+                            <ul class="list-unstyled p-5 text-end">
+                                <li><i class="fa-brands fa-twitter fa-xl p-4 border-2 border-secondary "
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-facebook fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-linkedin fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                                <li><i class="fa-brands fa-instagram fa-xl p-4 border-2 border-secondary"
+                                        style="color: #898180;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content text-center p-4">
+                        <h3>William Anderson</h3>
+                        <span>Cook</span>
+                        <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates
+                            enim aut architecto porro aspernatur molestiae modi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--gallery section-->
+    <section id="gallery">
+        <div class="container my-3">
+            <div class="main-title">
+                <h2 class="pt-5">Gallery</h2>
+                <p>Check <span>Our Gallery</span></p>
+            </div>
+            <div class="row gallery-photo d-flex">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-1.jpg" alt="pizza" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name">Pizza</h5>
+                            <p>Hawaiian pizza with ham and pineapple</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-4.jpg" alt="pizza slices" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name">Levitation pizza</h5>
+                            <p>Levitation pizza on black background.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-2.jpg" alt="steak" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name">Beef steaks</h5>
+                            <p>Tasty beef steaks flying above cast iron grate with fire flames.</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-7.jpg" alt="Frittata" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name"> Frittata</h5>
+                            <p>Frittata or potato pie in a ceramic plate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-3.jpg" alt="Burger" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name"> Burger</h5>
+                            <p>grass fed bison hamburger with chips & beer</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-5.jpg" alt="fried" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name"> Fried</h5>
+                            <p>Golden brown chicken legs with a crunchy coating and juicy meat</p>
+                        </div>
+                    </div>
+                    <div class="card shadow-sm my-3">
+                        <img src="img/gallery/meal-6.jpg" alt="Lyulya kebab" class="w-100">
+                        <div class="card-body">
+                            <h5 class="meal-name"> Lyulya kebab</h5>
+                            <p>Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--contact-->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="row">
+                <h2 class="text text-center">Contact</h2>
+                <p class="title">Need Help? <span>Contact Us</span></p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.3614654298603!2d-74.00394901540487!3d40.71005857933209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sar!2seg!4v1725931119378!5m2!1sar!2seg"
+                        style="border:0;" class="w-100" height="300px" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="row py-2">
+                    <div class="col-sm-12 col-lg-6 mb-2 mt-3">
+                        <div class="bg-secondary-subtle d-flex align-items-center p-2">
+                            <div class="icon pt-2">
+                                <i class="fa-regular fa-map fa-lg" style="color: #ededed;"></i>
+                            </div>
+                            <div>
+                                <h3>Our Address</h3>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 mb-2 mt-3 ">
+                        <div class="bg-secondary-subtle d-flex align-items-center p-2">
+                            <div class="icon px-3">
+                                <i class="fa-regular fa-envelope fa-lg" style="color: #ededed;"></i>
+                            </div>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 mb-2 mt-3">
+                        <div class="bg-secondary-subtle d-flex align-items-center p-2">
+                            <div class="icon px-3">
+                                <i class="fa-solid fa-phone fa-rotate-180 fa-lg" style="color: #ededed;"></i>
+                            </div>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 mb-2 mt-3 ">
+                        <div class="bg-secondary-subtle d-flex align-items-center p-2">
+                            <div class="icon px-3">
+                                <i class="fa-regular fa-clock fa-lg" style="color: #ededed;"></i>
+                            </div>
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <p><span class="days">Mon-Sat:</span> 11AM - 11PM; <span class="days">Sunday:</span>
+                                    Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <form class="form-container container py-3">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="form-btn btn btn-danger rounded">Send Message</button>
+                </div>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer container-fluid text-light">
+            <div class="row p-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-0 px-3 px-lg-4">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="img/favicon.png" alt="logo" class="me-2">
+                        <h2 class="mx-2">Mealify<span class="text-danger">.</span></h2>
+                    </div>
+                    <p>Mealify is a restaurant landing page that offers a delicious dining experience to its customers.
+                    </p>
+                    <h2 class="text-center">Social Media</h2>
+                    <hr>
+                    <div class="d-flex align-items-center justify-content-evenly">
+                        <a href="#" class="text-white"><i
+                                class="fa-brands fa-twitter fa-xl p-2 border-2 border-secondary"></i></a>
+                        <a href="#" class="text-white"><i
+                                class="fa-brands fa-facebook fa-xl p-2 border-2 border-secondary"></i></a>
+                        <a href="#" class="text-white"><i
+                                class="fa-brands fa-linkedin fa-xl p-2 border-2 border-secondary"></i></a>
+                        <a href="#" class="text-white"><i
+                                class="fa-brands fa-instagram fa-xl p-2 border-2 border-secondary"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-0 px-3 px-lg-4">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and
+                        stay up-to-date with all things Mealify!</p>
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <input type="email" id="email" placeholder="Enter your email address" class="form-control me-2">
+                        <button class="btn btn-danger p-2">Subscribe</button>
+                    </div>
+                    <h2 class="m-2">Quick Links</h2>
+                    <div class="d-flex justify-contect-center ">
+                        <div>
+                            <ul class="list-unstyled mx-4">
+                                <li><a>> Menu</a></li>
+                                <li><a>> About Us </a></li>
+                                <li><a>> Testimonial</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="list-unstyled text-light">
+                                <li><a>> Promo</a></li>
+                                <li><a>> Contact </a></li>
+                                <li><a>> Our Partners</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-0 px-3 px-lg-4">
+                    <h3>Get in Touch</h3>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="px-2"><i class="fa-solid fa-location-dot fa-lg text-danger"></i></span>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="px-2"><i class="fa-solid fa-envelope fa-lg text-danger"></i></span>
+                            <p>contact@example.com</p>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <span class="px-2"><i class="fa-solid fa-phone fa-lg text-danger"></i></span>
+                            <p>+1 5589 55488 55</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleButtonMobile = document.getElementById('darkModeToggleMobile');
+            const toggleButtonDesktop = document.getElementById('darkModeToggleDesktop');
+            const body = document.body;
+
+            // Check for dark mode preference in localStorage
+            if (localStorage.getItem('dark-mode') === 'enabled' ||
+                (!('dark-mode' in localStorage) &&
+                    window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                body.classList.add('dark-mode');
+            }
+
+            function toggleDarkMode() {
+                body.classList.toggle('dark-mode');
+                // Save the current mode to localStorage
+                if (body.classList.contains('dark-mode')) {
+                    localStorage.setItem('dark-mode', 'enabled');
+                } else {
+                    localStorage.setItem('dark-mode', 'disabled');
+                }
+            }
+
+            toggleButtonMobile.addEventListener('click', toggleDarkMode);
+            toggleButtonDesktop.addEventListener('click', toggleDarkMode);
+        });
+    </script>
+
+</body>
+
+</html>
